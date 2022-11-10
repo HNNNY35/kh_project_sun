@@ -1,0 +1,29 @@
+* {
+  border: 1px dotted gray;
+  font-size: 14px;
+}
+
+.login_text {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.login_table {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.login_table_th {
+  width: 80px;
+}
+
+.login_button {
+  margin: 10px auto;
+  width: 220px;
+}
+
+.login_button > button {
+  width: 220px;
+  height: 30px;
+}

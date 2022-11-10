@@ -1,0 +1,15 @@
+* {
+  font-size: 14px;
+}
+
+.content {
+  text-align: center;
+  margin: 50px auto;
+  line-height: 200%;
+}
+
+.content > button {
+  margin: 20px;
+  width: 100px;
+  height: 30px;
+}
