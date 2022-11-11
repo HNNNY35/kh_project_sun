@@ -24,11 +24,15 @@
 
 .table {
   padding: 40px 130px;
+
+  line-height: 200%;
+  height: 700px;
+}
+
+.box {
   border: 1px solid gray;
   background-color: white;
-  line-height: 200%;
   border-radius: 5px;
   margin: 20px auto;
   width: 90%;
-  height: 700px;
 }
