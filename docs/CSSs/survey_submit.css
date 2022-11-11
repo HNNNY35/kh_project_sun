@@ -10,7 +10,7 @@
 
 .content {
   text-align: center;
-  margin: 50px auto;
+  margin: 100px auto;
   line-height: 200%;
 }
 
@@ -18,4 +18,14 @@
   margin: 20px;
   width: 100px;
   height: 30px;
+}
+
+.box {
+  border: 1px solid gray;
+  background-color: white;
+  height: 600px;
+  line-height: 180%;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 800px;
 }

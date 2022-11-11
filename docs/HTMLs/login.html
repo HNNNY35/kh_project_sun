@@ -40,28 +40,30 @@
         </div>
       </div>
     </header>
-    <div class="login_text">
-      <div>로그인 화면입니다.</div>
-      <div>아이디와 비밀번호를 입력해주세요.</div>
-    </div>
-
-    <form action="./index.html" method="get">
-      <table border="1" class="login_table">
-        <tr>
-          <th>ID</th>
-          <td><input type="text" name="user_id" id="user_id" required /></td>
-        </tr>
-        <tr>
-          <th class="login_table_th">PW</th>
-          <td>
-            <input type="password" name="user_pw" id="user_pw" required />
-          </td>
-        </tr>
-      </table>
-      <div class="login_button">
-        <button type="submit">Log In</button>
+    <div class="box">
+      <div class="login_text">
+        <div>로그인 화면입니다.</div>
+        <div>아이디와 비밀번호를 입력해주세요.</div>
       </div>
-    </form>
+
+      <form action="./index.html" method="get">
+        <table class="login_table">
+          <tr>
+            <th>ID</th>
+            <td><input type="text" name="user_id" id="user_id" required /></td>
+          </tr>
+          <tr>
+            <th class="login_table_th">PW</th>
+            <td>
+              <input type="password" name="user_pw" id="user_pw" required />
+            </td>
+          </tr>
+        </table>
+        <div class="login_button">
+          <button type="submit">Log In</button>
+        </div>
+      </form>
+    </div>
     <footer class="foot">
       <div>KH Toy Project - Team SUN</div>
     </footer>

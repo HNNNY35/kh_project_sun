@@ -17,13 +17,20 @@
 .button > button {
   width: 150px;
   height: 40px;
+  background-color: RGB(251, 209, 75);
+  border: 1px solid gray;
+  border-radius: 5px;
 }
 
 .table {
   padding: 30px;
   border: 1px solid gray;
+  background-color: white;
   height: 600px;
   line-height: 180%;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 800px;
 }
 
 .table_tr {
