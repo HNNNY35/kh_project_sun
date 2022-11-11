@@ -5,13 +5,13 @@
 * {
   font-family: SCDream4;
 }
-.foot {
+footer {
   background-color: RGB(222, 220, 238);
   text-align: center;
   line-height: 50px;
   width: 100%;
   height: 50px;
-  margin: auto;
+  margin-top: auto;
   padding: 0px;
   bottom: 0;
   position: absolute;

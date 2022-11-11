@@ -10,7 +10,7 @@
 }
 
 .login_text {
-  margin: 100px auto 0px auto;
+  margin: auto;
   text-align: center;
 }
 
@@ -41,9 +41,9 @@
 .box {
   border: 1px solid gray;
   background-color: white;
-  height: 600px;
   line-height: 180%;
   border-radius: 5px;
   margin: 20px auto;
-  width: 800px;
+  width: 90%;
+  padding: 100px 0;
 }
