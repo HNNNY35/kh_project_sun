@@ -6,8 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../CSSs/survey.css" />
+    <link rel="stylesheet" href="../CSSs/main_menu.css" />
+    <link rel="stylesheet" href="../CSSs/footer.css" />
   </head>
   <body>
+    <header class="header">
+      <table class="menu_bar">
+        <tr>
+          <td colspan="5" class="menu_title">
+            <a href="./index.html" target="_self">이어폰 만족도 조사</a>
+          </td>
+          <td><a href="./login.html" target="_self">로그인</a></td>
+        </tr>
+        <tr>
+          <td colspan="6">
+            <ul class="menu_select">
+              <li><a href="./index.html" target="_self">Home</a></li>
+              <li><a href="./survey.html" target="_self">설문</a></li>
+              <li><a href="./result1_menu.html" target="_self">통계</a></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </header>
     <form action="./survey_submit.html" method="get">
       <table class="table">
         <tr>
@@ -123,5 +144,8 @@
         </tr>
       </table>
     </form>
+    <footer class="foot">
+      <div>KH Toy Project - Team SUN</div>
+    </footer>
   </body>
 </html>

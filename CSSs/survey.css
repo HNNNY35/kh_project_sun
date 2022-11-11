@@ -17,6 +17,7 @@
   padding: 30px;
   border: 1px solid gray;
   height: 600px;
+  line-height: 180%;
 }
 
 .table_tr {
