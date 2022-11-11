@@ -2,6 +2,7 @@
   /* border: 1px dotted gray; */
   font-size: 14px;
   margin: 0px auto 5px auto;
+  text-decoration: none;
 }
 
 .header {
@@ -18,8 +19,4 @@
   list-style: none;
   padding: 0px;
   align-items: center;
-}
-
-.text {
-  text-decoration: none;
 }

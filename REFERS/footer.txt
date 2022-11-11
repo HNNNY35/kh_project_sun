@@ -1,0 +1,12 @@
+footer
+
+    <footer class="foot">
+      <div>KH Toy Project - Team SUN</div>
+    </footer>
+
+
+
+
+
+CSS 링크
+    <link rel="stylesheet" href="../CSSs/footer.css" />
