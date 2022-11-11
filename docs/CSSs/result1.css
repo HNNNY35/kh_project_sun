@@ -5,12 +5,11 @@
 }
 .navi > li {
   float: left;
-  width: 30%;
-  height: 40px;
+  width: 20%;
+  height: 40%;
   text-align: center;
 }
 .navi a {
-  border: 1px solid black;
   text-decoration: none;
   font-size: 20px;
   font-weight: 800;
