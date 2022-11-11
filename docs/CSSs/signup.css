@@ -1,0 +1,50 @@
+.box {
+  border: 1px solid gray;
+  background-color: white;
+  line-height: 180%;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 90%;
+  padding: 50px 0;
+}
+
+.signup_text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 50px 30px 50px;
+  padding: 30px;
+  border-bottom: 2px dotted gray;
+}
+table {
+  font-size: 14px;
+  line-height: 250%;
+  width: 600px;
+}
+
+table td {
+  padding: 10px;
+}
+
+.button {
+  text-align: center;
+}
+
+.signup_btn {
+  width: 220px;
+  height: 30px;
+  font-weight: 800;
+  background-color: RGB(251, 209, 75);
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 20px;
+}
+.reset_btn {
+  width: 220px;
+  height: 30px;
+  font-weight: 800;
+  background-color: whitesmoke;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 20px;
+}

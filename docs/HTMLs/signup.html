@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SUN - Log In</title>
-    <link rel="stylesheet" href="../CSSs/login.css" />
+    <link rel="stylesheet" href="../CSSs/signup.css" />
     <link rel="stylesheet" href="../CSSs/header.css" />
     <link rel="stylesheet" href="../CSSs/footer.css" />
   </head>
@@ -41,34 +41,70 @@
       </div>
     </header>
     <div class="box">
-      <div class="login_text">
-        <div>로그인 화면입니다.</div>
-        <div>아이디와 비밀번호를 입력해주세요.</div>
+      <div class="signup_text">
+        <div>회원가입</div>
       </div>
-
       <form action="../index.html" method="get">
-        <table class="login_table">
+        <table>
           <tr>
-            <th>ID</th>
-            <td><input type="text" name="user_id" id="user_id" required /></td>
+            <th>아이디</th>
+            <td>
+              <input type="text" />
+              <input type="button" value="중복 확인" />
+            </td>
           </tr>
           <tr>
-            <th class="login_table_th">PW</th>
+            <th>비밀번호</th>
             <td>
-              <input type="password" name="user_pw" id="user_pw" required />
+              <input type="password" name="" id="" />
+            </td>
+          </tr>
+          <tr>
+            <th>비밀번호 확인</th>
+            <td>
+              <input type="password" name="" id="" />
+            </td>
+          </tr>
+          <tr>
+            <th>이름</th>
+            <td><input type="text" name="" id="" /></td>
+          </tr>
+          <tr>
+            <th>전화번호</th>
+            <td>
+              <input type="text" name="" id="" />-<input
+                type="text"
+                name=""
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>이메일</th>
+            <td>
+              <input type="text" name="" id="" />@<input
+                type="text"
+                name=""
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>정보수신 동의</th>
+            <td>
+              <input type="checkbox" name="" id="" />
+              <label for="">SMS로</label>
+              <input type="checkbox" name="" id="" />
+              <label for="">이메일로</label>
+              <label for="">정보를 수신하겠습니다.</label>
             </td>
           </tr>
         </table>
-        <div class="login_button">
-          <button type="submit" onclick="alert('로그인 되었습니다.')">
-            Log In
-          </button>
+        <div class="button">
+          <button type="reset" class="reset_btn">초기화</button>
+          <button type="submit" class="signup_btn">회원가입</button>
         </div>
       </form>
-      <div class="signup">
-        회원이 아니신가요?
-        <button onclick="location.href='./signup.html'">회원가입</button>
-      </div>
     </div>
     <footer class="foot">
       <div>KH Toy Project - Team SUN</div>
