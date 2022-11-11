@@ -1,5 +1,11 @@
+@font-face {
+  font-family: SCDream4;
+  src: url("./SCDream4.otf");
+}
+
 * {
   /* border: 1px dotted gray; */
+  font-family: SCDream4;
   font-size: 14px;
 }
 
