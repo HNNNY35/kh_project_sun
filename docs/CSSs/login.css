@@ -32,4 +32,7 @@
 .login_button > button {
   width: 220px;
   height: 30px;
+  background-color: RGB(251, 209, 75);
+  border: 1px solid gray;
+  border-radius: 5px;
 }
