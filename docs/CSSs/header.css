@@ -1,0 +1,54 @@
+.navi {
+  list-style-type: none;
+  padding: 0px auto;
+  margin: auto;
+}
+
+.navi > li {
+  float: left;
+  width: 20%;
+  /* height: 40%; */
+  text-align: center;
+}
+
+.navi a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  /* width: 100%; */
+  /* height: 100%; */
+  display: block;
+  line-height: 35px;
+}
+
+.navi a:hover {
+  color: green;
+}
+
+/* .navi > li > ul {
+  list-style-type: none;
+  padding: 0;
+  display: none;
+}
+
+.navi > li > ul a {
+  font-size: 15px;
+}
+
+.navi > li > a:hover + ul {
+  display: block;
+} */
+
+/* .navi > li > ul:hover {
+    display: block;
+  } */
+
+.wrap {
+  width: 100%;
+  /* height: 800px; */
+  margin: auto;
+}
+
+/* .wrap > div {
+  width: 100%;
+} */
