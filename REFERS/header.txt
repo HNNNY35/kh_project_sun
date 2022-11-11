@@ -1,25 +1,33 @@
 header
 
-
-    <header class="header">
-      <div class="text">
-        <table class="menu_bar">
-          <tr>
-            <td colspan="5">
+ <header>
+      <div class="wrap">
+        <div>
+          <ul class="navi">
+            <li>
               <a href="./index.html" target="_self">이어폰 만족도 조사</a>
-            </td>
-            <td><a href="./login.html" target="_self">로그인</a></td>
-          </tr>
-          <tr>
-            <td colspan="6">
-              <ul class="menu_select">
-                <li><a href="./index.html" target="_self">Home</a></li>
-                <li><a href="./survey.html" target="_self">설문</a></li>
-                <li><a href="./result1_menu.html" target="_self">통계</a></li>
+            </li>
+            <li><a href="./index.html" target="_self">HOME</a></li>
+            <li><a href="./survey.html" target="_self">설문</a></li>
+            <li>
+              <a href="">통계</a>
+              <ul>
+                <li>
+                  <a href="./result1.html" target="_self"
+                    >회원 설문/답문 조회</a
+                  >
+                </li>
+                <li>
+                  <a href="./result2.html" target="_self">설문자별 통계</a>
+                </li>
+                <li>
+                  <a href="./result3.html" target="_self">질문별 총 답변 수</a>
+                </li>
               </ul>
-            </td>
-          </tr>
-        </table>
+            </li>
+            <li><a href="./login.html">로그인</a></li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -28,4 +36,4 @@ header
 
 CSS 링크
 
-    <link rel="stylesheet" href="../CSSs/main_menu.css" />
+    <link rel="stylesheet" href="../CSSs/header.css" />
