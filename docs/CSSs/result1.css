@@ -6,20 +6,6 @@
   font-family: SCDream4;
 }
 
-.wrapping > div {
-  width: 100%;
-}
-header {
-  height: 20%;
-}
-.content {
-  height: 75%;
-}
-footer {
-  justify-content: flex-end;
-  align-items: center;
-  bottom: auto;
-}
 .navi {
   margin: auto;
   top: 0;
