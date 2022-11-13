@@ -1,0 +1,32 @@
+@font-face {
+  font-family: SCDream4;
+  src: url("./SCDream4.otf");
+}
+
+* {
+  font-family: SCDream4;
+  font-size: 14px;
+}
+
+.content {
+  text-align: center;
+  margin: 100px auto;
+  line-height: 200%;
+}
+
+.content > button {
+  margin: 20px;
+  /* width: 100px; */
+  height: 30px;
+}
+
+.box {
+  border: 1px solid gray;
+  background-color: white;
+
+  line-height: 180%;
+  border-radius: 5px;
+  margin: 20px auto;
+  height: 80%;
+  width: 90%;
+}

@@ -44,49 +44,95 @@
       <div class="signup_text">
         <div>회원가입</div>
       </div>
-      <form action="../index.html" method="get">
+      <form action="./signup_submit.html" method="get">
         <table>
           <tr>
             <th>아이디</th>
             <td>
-              <input type="text" />
-              <input type="button" value="중복 확인" />
+              <input type="text" name="user_id" id="user_id" required />
+              <input
+                type="button"
+                value="중복 확인"
+                onclick="alert('사용 가능한 아이디입니다.')"
+              />
+              <div class="noti">
+                <label for=""
+                  >6~16자까지 영문자(소문자), 숫자 사용 가능합니다.</label
+                >
+              </div>
             </td>
           </tr>
           <tr>
             <th>비밀번호</th>
             <td>
-              <input type="password" name="" id="" />
+              <input type="password" name="user_pw" id="user_pw" required />
+              <div class="noti">
+                <label for=""
+                  >6~16자까지 영문자(대소문자), 숫자 및 특수문자 사용
+                  가능합니다.</label
+                >
+              </div>
             </td>
           </tr>
           <tr>
             <th>비밀번호 확인</th>
             <td>
-              <input type="password" name="" id="" />
+              <input
+                type="password"
+                name="user_pw_confirm"
+                id="user_pw_confirm"
+                required
+              />
             </td>
           </tr>
           <tr>
             <th>이름</th>
-            <td><input type="text" name="" id="" /></td>
+            <td>
+              <input type="text" name="user_name" id="user_name" required />
+            </td>
           </tr>
           <tr>
             <th>전화번호</th>
             <td>
-              <input type="text" name="" id="" />-<input
+              <select name="number_first" id="number_first">
+                <option value="010">010</option>
+                <option value="010">02</option>
+                <option value="010">031</option>
+                <option value="010">070</option>
+              </select>
+              <label for=""> - </label>
+              <input
                 type="text"
-                name=""
-                id=""
+                name="number_second"
+                id="number_second"
+                required
+                class="number_box"
+              />
+              -
+              <input
+                type="text"
+                name="number_third"
+                id="number_third"
+                required
+                class="number_box"
               />
             </td>
           </tr>
           <tr>
             <th>이메일</th>
             <td>
-              <input type="text" name="" id="" />@<input
+              <input
                 type="text"
-                name=""
-                id=""
-              />
+                name="email_first"
+                id="email_first"
+                required
+              />@<input type="text" name="email_second" id="email_second" />
+              <select name="email_second_choose" id="email_second_choose">
+                <option value="직접 입력">직접 입력</option>
+                <option value="naver.com">naver.com</option>
+                <option value="gmail.com">gmail.com</option>
+                <option value="hanmail.net">hanmail.net</option>
+              </select>
             </td>
           </tr>
           <tr>
