@@ -5,6 +5,16 @@
 * {
   font-family: SCDream4;
 }
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 50px;
+}
+
 footer {
   background-color: RGB(222, 220, 238);
   text-align: center;
@@ -14,6 +24,6 @@ footer {
   margin-top: auto;
   padding: 0px;
   bottom: 0;
-  position: absolute;
   font-size: 14px;
+  position: absolute;
 }
