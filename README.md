@@ -1,4 +1,4 @@
-# 🌞'SUN' 토이 프로젝트🌞'
+# 🌞'SUN' 토이 프로젝트🌞
 <img src="https://github.com/HNNNY35/kh_project_sun/blob/main/REFERS/gifs/index.PNG" width="800">
 
 
