@@ -19,8 +19,8 @@
         <form action="./index.html" method="get">
           <div>로그인 화면입니다.</div>
           <div>아이디와 비밀번호를 입력해주세요.</div>
-          <div>
-            <label for="" class="form-label">ID</label>
+          <div class="input-group pt-4">
+            <label for="" class="input-group-text">ID</label>
             <input
               type="text"
               class="form-control"
@@ -29,8 +29,8 @@
               placeholder="ID를 입력하세요"
             />
           </div>
-          <div>
-            <label for="" class="form-label">Password</label>
+          <div class="input-group pt-4">
+            <label for="" class="input-group-text">Password</label>
             <input
               type="password"
               class="form-control"
@@ -44,7 +44,12 @@
           </div>
         </form>
         <div class="pt-4">
-          회원이 아니신가요? <button class="btn btn-secondary">회원가입</button>
+          회원이 아니신가요?
+          <button class="btn btn-sm btn-secondary">
+            <a class="text-light text-decoration-none" href="./signup.html">
+              회원가입</a
+            >
+          </button>
         </div>
       </div>
     </main>
