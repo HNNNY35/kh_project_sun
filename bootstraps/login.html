@@ -14,9 +14,11 @@
     <title>SUN - Log In</title>
   </head>
   <body>
-    <main>
-      <div class="container text-center form-signin w-100 m-auto">
-        <form action="./index.html" method="get">
+    <div
+    class="container border border-dark rounded text-center form-signin w-100 m-auto"
+    >
+    <main class="p-5">
+        <form action="" method="get">
           <div>로그인 화면입니다.</div>
           <div>아이디와 비밀번호를 입력해주세요.</div>
           <div class="input-group pt-4">
@@ -27,6 +29,7 @@
               name=""
               id=""
               placeholder="ID를 입력하세요"
+              required
             />
           </div>
           <div class="input-group pt-4">
@@ -37,10 +40,12 @@
               name=""
               id=""
               placeholder="비밀번호를 입력하세요"
+              required
             />
           </div>
           <div class="pt-4">
-            <button class="w-100 btn btn-lg btn-warning">Log In</button>
+            <a class=" btn btn-lg btn-warning" href="./index.html">Login</a>
+            
           </div>
         </form>
         <div class="pt-4">
