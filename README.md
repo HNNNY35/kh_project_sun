@@ -50,4 +50,22 @@
 ### 주요 기능(Bootstrap)
 
 - (해인)
-- (선아)
+- (선아) 로그인 기능 - 입력상자(로그인 / 패스워드)를 그룹으로
+  묶기
+
+```
+ <div class="row">
+          <div class="col-lg-5 col-md-7 mx-auto">
+            <form action="./index.html" method="get">
+              <div>로그인 화면입니다.</div>
+              <div>아이디와 비밀번호를 입력해주세요.</div>
+              <div class="input-group pt-4">
+   <label for="" class="input-group-text">ID</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name=""
+                  id=""
+                  placeholder="ID를 입력하세요"
+                  required/>
+```
