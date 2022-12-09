@@ -29,12 +29,14 @@
 - 메인/로그인/설문조사/회원가입 페이지 구현
 - [HTML] [main](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/index.html) / [login](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/HTMLs/login.html) / [sign_up](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/HTMLs/signup.html) / [sign_up_submit](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/HTMLs/signup_submit.html) / [survey](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/HTMLs/survey.html) / [survey_submit](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/HTMLs/survey_submit.html)
 - [CSS] [main](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/CSSs/index.css) / [login](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/CSSs/login.css) / [sign_up](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/CSSs/signup.css) / [sign_up_submit](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/CSSs/signup_submit.css) / [survey](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/CSSs/survey.css) / [survey_submit](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/CSSs/survey_submit.css)
+- [Bootstrap] [main](https://github.com/HNNNY35/kh_project_sun/blob/main/bootstraps/index.html) / [result2](https://github.com/HNNNY35/kh_project_sun/blob/main/bootstraps/result2.html) / [result3](https://github.com/HNNNY35/kh_project_sun/blob/main/bootstraps/result3.html) /[sign up](https://github.com/HNNNY35/kh_project_sun/blob/main/bootstraps/signup.html) / [signup submit](https://github.com/HNNNY35/kh_project_sun/blob/main/bootstraps/signup_submit.html)
 
 ### 👩‍💻 윤선아
 
 - 통계(회원/설문자별/질문별), 홈페이지 헤더&푸터 구현
 - [HTML] [result1](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/HTMLs/result1.html) / [result2](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/HTMLs/result2.html) / [result3](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/HTMLs/result3.html) / [header](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/HTMLs/header.html) / [footer](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/HTMLs/footer.html)
 - [CSS] [result](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/CSSs/result1.css) / [header](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/CSSs/header.css) / [footer](https://github.com/HNNNY35/kh_project_sun/blob/main/docs/CSSs/footer.css)
+- [Bootstrap] [login](https://github.com/HNNNY35/kh_project_sun/blob/main/bootstraps/login.html) / [result1](https://github.com/HNNNY35/kh_project_sun/blob/main/bootstraps/result1.html) / [survey](https://github.com/HNNNY35/kh_project_sun/blob/main/bootstraps/survey.html) / [survey_submit](https://github.com/HNNNY35/kh_project_sun/blob/main/bootstraps/survey_submit.html)
 
 ### 화면정의서
 
