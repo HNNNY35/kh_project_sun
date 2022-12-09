@@ -49,7 +49,25 @@
 
 ### 주요 기능(Bootstrap)
 
-- (해인)
+- (해인) align-items-start - 상단 메뉴들이 Collapse 버튼 클릭 시에도 상단에 고정되어 있도록 하기 위해 사용
+
+```
+<nav class="navbar">
+    <div class="container-fluid my-2 mx-5 align-items-start">
+    (생략)
+        <div style="width: 15%">
+            <a href="#collapseId" class="navbar-toggler border-0 btn"
+              data-bs-toggle="collapse" style="color: RGB(106, 96, 169); font-weight: 800;">통계</a>
+
+            <div class="collapse navbar-collapse" id="collapseId">
+              <div class="navbar-nav"">
+                <a href="./result1.html" class="nav-link" style="color: RGB(106, 96, 169)">
+                회원 설문/답문 조회</a>
+
+    (생략)
+      </nav>
+```
+
 - (선아) 로그인 기능 - 입력상자(로그인 / 패스워드)를 그룹으로
   묶기
 
