@@ -50,7 +50,7 @@
 ### 주요 기능(Bootstrap)
 
 - (해인) align-items-start - 상단 메뉴들이 Collapse 버튼 클릭 시에도 상단에 고정되어 있도록 하기 위해 사용
-  <img src="<img src="https://github.com/HNNNY35/kh_project_sun/blob/main/REFERS/gifs/menu_before.gif" width="800">
+  <img src="https://github.com/HNNNY35/kh_project_sun/blob/main/REFERS/gifs/menu_before.gif" width="800">
   <img src="https://github.com/HNNNY35/kh_project_sun/blob/main/REFERS/gifs/menu_after.gif" width="800">
 
 ```
